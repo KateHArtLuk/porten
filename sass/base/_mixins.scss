@@ -1,0 +1,19 @@
+@mixin line {
+    width: 120px;
+    height: 1px;
+    background-color: #FFFFFF;
+    display: block;
+    
+}
+
+@mixin btn {
+    border: none;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #FFFFFF;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+}
+

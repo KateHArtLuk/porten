@@ -1,0 +1,58 @@
+.new-collection {
+	max-height: 1289px;
+	background-color: black;
+	font-family: 'Playfair Display';
+	display: flex;
+	justify-content: center;
+	.container {
+		padding: 120px 0 150px 0;
+	}
+
+	&__title {
+		font-size: 36px;
+		line-height: 42px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	&__line {
+		@include line;
+
+		margin: 40px auto 0 auto;
+	}
+
+	&__wrapper {
+		margin-top: 81px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&__item:nth-child(5) {
+		margin: 0 23px;
+  	}
+
+	&__rectangle {
+		background: #191B1C;
+		width: 260px;
+		height: 325px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__product-name {
+		margin-top: 25px;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 21px;
+		color: #FFFFFF;
+	}
+	&__price {
+		margin-top: 10px;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 19px;
+		color: #D0D0D0;
+	}
+}

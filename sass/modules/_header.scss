@@ -1,0 +1,113 @@
+.header {
+    &__top {
+        font-family: PT Sans;
+        color: #969696;
+        background-color: #000;
+        font-weight: 400;
+        font-size: 12px;
+
+        .container {
+            padding: 14px 0 14px 0;
+            display: flex;
+            justify-content: space-between; //прижать элементы к краям
+
+        }
+    }
+    &__info {
+        display: flex;
+    }
+    &__phone-img {
+        width: 17px;
+        height: 17px;
+    }
+    &__phone-link {
+        padding: 0 15px 0 15px;
+
+    }
+    &__work-days {
+        padding: 0 15px 0 15px;
+        border-left: solid 1px #969696;
+        border-right: solid 1px #969696;
+    }
+    &__clock {
+        padding: 0 15px 0 15px;
+    }
+
+    &__login {
+        display: flex;
+        align-items: center;
+    }
+    &__login-img {
+
+    }
+    &__login-text {
+        margin-left: 10px;
+    }
+
+
+    &__bootom {
+        font-family: PT Sans;
+        background-color: #0F0F0F;
+        font-size: 14px;
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__logo {
+
+    }
+    &__navigation {
+
+    }
+    &__list {
+        height: 80px;
+        display: flex;
+    }
+    &__item:hover {
+        background-color: #1F1F1F;
+        cursor: pointer;
+        color: #fff;
+
+    }
+    &__item {
+        padding: 31px 20px 31px 20px;
+
+    }
+    &__link {
+        text-transform: uppercase;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

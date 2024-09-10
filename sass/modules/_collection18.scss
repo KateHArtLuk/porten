@@ -1,0 +1,50 @@
+.collection-18 {
+	max-height: 600px;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	font-family: 'Playfair Display';
+
+	&__block-left {
+		position: relative;
+	}
+
+	&__block-right {
+		padding: 100px 332px;
+	}
+
+	&__title {
+		line-height: 42px;
+		font-size: 36px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		text-align: center;
+	}
+
+	&__line {
+		@include line;
+
+		margin: 40px auto 0 auto;
+	}
+
+	&__text {
+		font-family: 'PT Sans';
+		text-align: center;
+		width: 471px;
+		height: 173px;
+		line-height: 150%;
+		font-weight: 400;
+		font-size: 14px;
+		color: #FFFFFF;
+		margin: 40px auto 0 auto;
+	}
+
+	button {
+		display: block;
+		margin: 61px;
+		width: 311px;
+		height: 47px;
+
+		@include btn;
+	}
+}

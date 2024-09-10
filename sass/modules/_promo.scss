@@ -1,0 +1,26 @@
+.promo {
+    background: url(/img/bg/promo.jpg) center/cover no-repeat;
+    font-family: PT Sans;
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 160px 0 154px 0;
+
+    }
+    &__logo {
+        display: block;
+        width: 320px;
+        height: 320px;
+        margin: 0 auto;
+    }
+    &__subtitle {
+        font-size: 16px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 400;
+        color: #fff;
+        margin: 80px auto 0 auto;
+        line-height: 150%;
+        width: 730px;
+    }
+}
